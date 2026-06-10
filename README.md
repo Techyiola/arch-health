@@ -36,6 +36,23 @@ source ~/.zshrc
 # Fish
 source ~/.config/fish/config.fish
 ```
+## Usage
+
+After installing, run:
+
+    syshealth --help
+
+Examples:
+
+    syshealth --all              # everything
+    syshealth --battery          # battery health & charge
+    syshealth --temps            # CPU, GPU & NVMe temps
+    syshealth --memory           # RAM & swap
+    syshealth --disk             # disk usage per partition
+    syshealth --system           # failed units & journal errors
+    syshealth --net              # ping & network interfaces
+    syshealth --battery --temps  # combine any flags
+
 
 ---
 
